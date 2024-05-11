@@ -1,0 +1,111 @@
+html, body, .bodyContainer {
+  margin: 0;
+  padding: 0;
+  font-family: var(--figTree-font-family), serif;
+  font-weight: var(--figTree-font-weight500);
+  background-color: var(--main-color);
+}
+
+body {
+  min-width: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bodyContainer {
+  display: flex;
+  background-color: var(--neutral1);
+  width: 327px;
+  height: 501px;
+  border-radius: 20px;
+  flex-flow: wrap;
+  box-shadow: 8px 8px 0 0 #000;
+
+}
+
+.bannerContainer {
+  width: auto;
+  padding: 24px 24px;
+  min-height: 160px;
+  height: 160px;
+}
+
+.banner {
+  background-image: url("./assets/images/illustration-article.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 200px;
+  width: 279px;
+  position: fixed;
+  border-radius: 10px;
+}
+
+.informationContainer {
+  padding: 0 24px 0 24px;
+}
+
+ h4 {
+  width: 73px;
+  height: 26px;
+  display: flex;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: var(--figTree-font-weight800);
+  background-color: var(--main-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.information span {
+  font-size: 12px;
+  font-weight: var(--figTree-font-weight500);
+  color: var(--neutral3);
+}
+
+ h3 {
+  font-size: 20px;
+  font-weight: var(--figTree-font-weight800);
+}
+h3:hover{
+  color: var(--main-color);
+  cursor: pointer;
+}
+.information p {
+  font-size: 14px;
+  font-weight: var(--figTree-font-weight500);
+  color: var(--neutral2);
+}
+
+
+img {
+  width: 32px;
+  height: 32px;
+}
+
+.footerContainer {
+  width: 129px;
+  height: 32px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 24px;
+  font-size: 14px;
+  font-weight: var(--figTree-font-weight800);
+  color: var(--neutral3);
+}
+
+/*Variables*/
+:root {
+  /*Color*/
+  --main-color: hsl(47, 88%, 63%);
+  --neutral1: hsl(0, 0%, 100%);
+  --neutral2: hsl(0, 0%, 50%);
+  --neutral3: hsl(0, 0%, 7%);
+  /*Font*/
+  --figTree-font-family: "Figtree", sans-serif;
+  --figTree-font-weight500: 500;
+  --figTree-font-weight800: 800;
+}
