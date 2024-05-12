@@ -1,22 +1,37 @@
 html, body, .bodyContainer {
   margin: 0;
   padding: 0;
-
+  font-family: Montserrat, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
 }
 
 body {
-
   display: flex;
-  justify-content: center;
+flex-flow: row;
   align-items: center;
-  height: 100vh;
+  background-color: red;
 }
 
 .bodyContainer {
-
+  background-color: blue;
+  width: 100%;
+  height: auto;
 
 }
 
+nav h1 {
+
+}
+
+nav {
+  position: fixed;
+  w
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
 
 /*Variables*/
 :root {
