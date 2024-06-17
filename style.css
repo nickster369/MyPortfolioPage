@@ -1,0 +1,29 @@
+html, body, .bodyContainer {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+
+}
+
+.bodyColor{
+  background-color: beige;
+}
+
+
+
+
+img {
+  width: 100%;
+  height: fit-content;
+}
+
+/*Variables*/
+:root {
+  /*Color*/
+  --main-color: hsl(47, 88%, 63%);
+  --neutral1: hsl(0, 0%, 100%);
+  --neutral2: hsl(0, 0%, 50%);
+  --neutral3: hsl(0, 0%, 7%);
+
+}
