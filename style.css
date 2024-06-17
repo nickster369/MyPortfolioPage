@@ -12,12 +12,6 @@ html, body, .bodyContainer {
 
 
 
-
-img {
-  width: 100%;
-  height: fit-content;
-}
-
 /*Variables*/
 :root {
   /*Color*/
